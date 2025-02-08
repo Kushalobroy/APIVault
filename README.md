@@ -1,20 +1,20 @@
-# FullStack-API-Hub
+# APIVault 🔒
 
-A Spring Boot backend application that provides commonly used APIs for full-stack web development. This project serves as a one-stop solution for developers to integrate various backend functionalities effortlessly.
+APIVault is a powerful Spring Boot backend application that serves as a collection of essential APIs used in full-stack web development.
 
 ## Features
-- Authentication & Authorization (JWT, OAuth2)
-- User Management (CRUD)
-- File Upload/Download
-- Payment Integration (Razorpay, Stripe, PayPal)
-- Email & SMS Services (Twilio, AWS SES)
-- Real-Time Notifications (WebSockets, Firebase)
-- Chat System (WebSockets, Kafka)
-- Logging & Monitoring (ELK, Prometheus)
-- Database Management (MySQL, PostgreSQL, MongoDB)
-- Search Functionality (Elasticsearch)
-- Role-Based Access Control (RBAC)
-- API Rate Limiting & Security
+- ✅ **Authentication & Authorization** (JWT, OAuth2)
+- ✅ **User Management** (CRUD Operations)
+- ✅ **File Upload/Download** (S3, Local Storage)
+- ✅ **Payment Integration** (Razorpay, Stripe, PayPal)
+- ✅ **Email & SMS Services** (Twilio, AWS SES)
+- ✅ **Real-Time Notifications** (WebSockets, Firebase)
+- ✅ **Chat System** (WebSockets, Kafka)
+- ✅ **Logging & Monitoring** (ELK, Prometheus)
+- ✅ **Database Management** (MySQL, PostgreSQL, MongoDB)
+- ✅ **Search Functionality** (Elasticsearch)
+- ✅ **Role-Based Access Control** (RBAC)
+- ✅ **API Rate Limiting & Security**
 
 ## Technologies Used
 - **Spring Boot** (Java)
@@ -65,5 +65,3 @@ A Spring Boot backend application that provides commonly used APIs for full-stac
 ---
 
 This project is open for contributions! Feel free to submit pull requests. 🚀
-
-
