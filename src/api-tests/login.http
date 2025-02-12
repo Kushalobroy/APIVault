@@ -1,0 +1,2 @@
+### Login User (Using Request Parameters)
+POST http://localhost:8080/auth/login?email=kushalobroy@gmail.com&password=password123

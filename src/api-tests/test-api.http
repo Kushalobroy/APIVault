@@ -1,3 +1,0 @@
-### Test GET request
-GET http://localhost:8080/
-Accept: application/json

@@ -1,0 +1,13 @@
+### Register User
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+    "firstName": "Kushal",
+    "lastName": "Obroy",
+    "email": "kushalobroy@gmail.com",
+    "password": "password123",
+    "phone": "7800286558",
+    "dateOfBirth": "2002-09-01",
+    "role": "ADMIN"
+}
