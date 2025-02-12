@@ -1,0 +1,14 @@
+### Update User
+PUT http://localhost:8080/users/1
+Content-Type: application/json
+
+{
+    "firstName": "Adarsh",
+    "lastName": "Obroy",
+    "email": "karn87470@gmail.com",
+    "password": "newpassword123",
+    "phone": "6306320820",
+    "dateOfBirth": "2002-08-30",
+    "role": "ADMIN",
+    "active": true
+}

@@ -29,7 +29,25 @@ public class UserService {
         return userRepository.save(user);
     }
 
-    public void deleteUser(Long id) {
+    public boolean deleteUser(Long id) {
+        if (!userRepository.existsById(id)) {
+            return false;
+        }
         userRepository.deleteById(id);
+        return true;
     }
+    public Optional<User> updateUser(Long id, User updatedUser) {
+        return userRepository.findById(id).map(existingUser -> {
+            existingUser.setFirstName(updatedUser.getFirstName());
+            existingUser.setLastName(updatedUser.getLastName());
+            existingUser.setEmail(updatedUser.getEmail());
+            existingUser.setPhone(updatedUser.getPhone());
+            existingUser.setDateOfBirth(updatedUser.getDateOfBirth());
+            existingUser.setRole(updatedUser.getRole());
+            existingUser.setActive(updatedUser.isActive());
+            return userRepository.save(existingUser);
+        });
+    }
+    
+    
 }

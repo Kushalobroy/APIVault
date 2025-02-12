@@ -1,0 +1,2 @@
+### Delete User
+DELETE http://localhost:8080/users/3

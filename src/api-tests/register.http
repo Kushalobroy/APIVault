@@ -3,11 +3,11 @@ POST http://localhost:8080/auth/register
 Content-Type: application/json
 
 {
-    "firstName": "Kushal",
+    "firstName": "Demo",
     "lastName": "Obroy",
-    "email": "kushalobroy@gmail.com",
+    "email": "demo@gmail.com",
     "password": "password123",
-    "phone": "7800286558",
+    "phone": "1234567890",
     "dateOfBirth": "2002-09-01",
-    "role": "ADMIN"
+    "role": "USER"
 }
