@@ -1,0 +1,3 @@
+### File Download
+
+GET http://localhost:8080/files/download/4d8fdceb-11af-4098-b650-e5239febc802_test-file.txt
